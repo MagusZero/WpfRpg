@@ -91,8 +91,8 @@ public record class Map(IEnumerable<MapLayer> Layers, string Tileset, string Sty
 	/// <returns>
 	/// An <see cref="XElement"/> representing this map.
 	/// </returns>
-	public XElement ToXml()
-		=> new XElement(
+	public XElement ToXml() =>
+		new(
 			nameof(Map),
 			new XAttribute(nameof(this.Tileset), this.Tileset),
 			new XAttribute(nameof(this.Style), this.Style),

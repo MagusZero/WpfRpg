@@ -102,8 +102,8 @@ public record class Position : INotifyPropertyChanged
 	/// <returns>
 	/// An <see cref="XElement"/> representing this position.
 	/// </returns>
-	public XElement ToXml()
-		=> new XElement(
+	public XElement ToXml() =>
+		new(
 			nameof(Position),
 			new XAttribute(nameof(this.South), this.South),
 			new XAttribute(nameof(this.East), this.East));

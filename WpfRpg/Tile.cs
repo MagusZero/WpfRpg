@@ -78,8 +78,8 @@ public record class Tile
 	/// <returns>
 	/// An <see cref="XElement"/> representing this tile.
 	/// </returns>
-	public XElement ToXml()
-		=> new XElement(
+	public XElement ToXml() =>
+		new(
 			nameof(Tile),
 			new XAttribute(nameof(this.Appearance), this.Appearance),
 			this.Tags.Select(tag => new XElement(TagElementName, tag)));

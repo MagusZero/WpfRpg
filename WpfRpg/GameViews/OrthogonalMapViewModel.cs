@@ -158,29 +158,29 @@ public class OrthogonalMapViewModel : INotifyPropertyChanged
 	/// Goes one space to the North.
 	/// </summary>
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1101:Prefix local calls with this", Justification = "Stylecop incorrectly flags with members as local")]
-	public void GoNorth()
-		=> this.Position = (this.Position ?? new Position(0, 0)) with { South = (this.Position?.South ?? 1) - 1 };
+	public void GoNorth() =>
+		this.Position = (this.Position ?? new Position(0, 0)) with { South = (this.Position?.South ?? 1) - 1 };
 
 	/// <summary>
 	/// Goes one space to the South.
 	/// </summary>
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1101:Prefix local calls with this", Justification = "Stylecop incorrectly flags with members as local")]
-	public void GoSouth()
-		=> this.Position = (this.Position ?? new Position(0, 0)) with { South = (this.Position?.South ?? 0) + 1 };
+	public void GoSouth() =>
+		this.Position = (this.Position ?? new Position(0, 0)) with { South = (this.Position?.South ?? 0) + 1 };
 
 	/// <summary>
 	/// Goes one space to the West.
 	/// </summary>
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1101:Prefix local calls with this", Justification = "Stylecop incorrectly flags with members as local")]
-	public void GoWest()
-		=> this.Position = (this.Position ?? new Position(0, 0)) with { East = (this.Position?.East ?? 1) - 1 };
+	public void GoWest() =>
+		this.Position = (this.Position ?? new Position(0, 0)) with { East = (this.Position?.East ?? 1) - 1 };
 
 	/// <summary>
 	/// Goes one space to the East.
 	/// </summary>
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1101:Prefix local calls with this", Justification = "Stylecop incorrectly flags with members as local")]
-	public void GoEast()
-		=> this.Position = (this.Position ?? new Position(0, 0)) with { East = (this.Position?.East ?? 0) + 1 };
+	public void GoEast() =>
+		this.Position = (this.Position ?? new Position(0, 0)) with { East = (this.Position?.East ?? 0) + 1 };
 
 	private void Regenerate()
 	{
