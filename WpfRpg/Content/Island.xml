@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map Tileset="Island" Style="Orthogonal" Name="Island" TileWidth="32" TileHeight="32">
+	<Layer ExternalAppearance="Water">
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+		<Column>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+		</Column>
+		<Column>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Portal">
+				<Tag>Origin</Tag>
+			</Tile>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+		</Column>
+		<Column>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Stone"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+		</Column>
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Grass"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+		<Column>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Beach"/>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+			<Tile Appearance="Water">
+				<Tag>Unpathable</Tag>
+			</Tile>
+		</Column>
+	</Layer>
+</Map>

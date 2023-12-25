@@ -1,0 +1,9 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<ImageBrush x:Key="Water" ImageSource="/WpfRpg;component/Content/img/water.png"/>
+	<ImageBrush x:Key="Grass" ImageSource="/WpfRpg;component/Content/img/grass.png"/>
+	<ImageBrush x:Key="Stone" ImageSource="/WpfRpg;component/Content/img/stone.png"/>
+	<ImageBrush x:Key="Beach" ImageSource="/WpfRpg;component/Content/img/beach.png"/>
+	<ImageBrush x:Key="Portal" ImageSource="/WpfRpg;component/Content/img/portal.png"/>
+</ResourceDictionary>

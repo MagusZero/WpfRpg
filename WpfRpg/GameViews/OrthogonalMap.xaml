@@ -1,0 +1,69 @@
+﻿<UserControl
+	x:Class="BlackOmen.WpfRpg.GameViews.OrthogonalMap"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+	xmlns:local="clr-namespace:BlackOmen.WpfRpg.GameViews"
+	xmlns:game="clr-namespace:BlackOmen.WpfRpg"
+	mc:Ignorable="d"
+	d:DataContext="{d:DesignInstance local:OrthogonalMapViewModel}">
+	<Viewbox>
+		<ItemsControl ItemsSource="{Binding Current}">
+			<ItemsControl.ItemsPanel>
+				<ItemsPanelTemplate>
+					<Grid/>
+				</ItemsPanelTemplate>
+			</ItemsControl.ItemsPanel>
+			<ItemsControl.ItemTemplate>
+				<DataTemplate>
+					<ItemsControl ItemsSource="{Binding}" Margin="0" BorderThickness="0" SnapsToDevicePixels="True">
+						<ItemsControl.ItemsPanel>
+							<ItemsPanelTemplate>
+								<UniformGrid Rows="1" SnapsToDevicePixels="True"/>
+							</ItemsPanelTemplate>
+						</ItemsControl.ItemsPanel>
+						<ItemsControl.ItemTemplate>
+							<DataTemplate>
+								<ItemsControl ItemsSource="{Binding}" BorderThickness="0" SnapsToDevicePixels="True">
+									<ItemsControl.ItemsPanel>
+										<ItemsPanelTemplate>
+											<UniformGrid Columns="1" SnapsToDevicePixels="True"/>
+										</ItemsPanelTemplate>
+									</ItemsControl.ItemsPanel>
+									<ItemsControl.ItemTemplate>
+										<DataTemplate>
+											<Rectangle MinWidth="10" MinHeight="10" SnapsToDevicePixels="True">
+												<Rectangle.Style>
+													<Style TargetType="Rectangle">
+														<Style.Triggers>
+															<DataTrigger Binding="{Binding Appearance}" Value="Water">
+																<Setter Property="Fill" Value="{StaticResource Water}"/>
+															</DataTrigger>
+															<DataTrigger Binding="{Binding Appearance}" Value="Grass">
+																<Setter Property="Fill" Value="{StaticResource Grass}"/>
+															</DataTrigger>
+															<DataTrigger Binding="{Binding Appearance}" Value="Stone">
+																<Setter Property="Fill" Value="{StaticResource Stone}"/>
+															</DataTrigger>
+															<DataTrigger Binding="{Binding Appearance}" Value="Beach">
+																<Setter Property="Fill" Value="{StaticResource Beach}"/>
+															</DataTrigger>
+															<DataTrigger Binding="{Binding Appearance}" Value="Portal">
+																<Setter Property="Fill" Value="{StaticResource Portal}"/>
+															</DataTrigger>
+														</Style.Triggers>
+													</Style>
+												</Rectangle.Style>
+											</Rectangle>
+										</DataTemplate>
+									</ItemsControl.ItemTemplate>
+								</ItemsControl>
+							</DataTemplate>
+						</ItemsControl.ItemTemplate>
+					</ItemsControl>
+				</DataTemplate>
+			</ItemsControl.ItemTemplate>
+		</ItemsControl>
+	</Viewbox>
+</UserControl>
